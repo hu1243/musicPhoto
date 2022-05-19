@@ -96,7 +96,7 @@ img:nth-of-type(8){
 
 .music{
     position: absolute;
-    bottom:10px;
+    bottom:5%;
     left:50%;
     transform: translateX(-50%);
 }
