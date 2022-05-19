@@ -25,12 +25,27 @@
         <img src="./img/12.jpg" alt="">
         <img src="./img/10.jpg" alt="">
     </div>
-    <audio class="music" autoplay="autoplay" loop="loop">
+    <audio class="music" id="vd" autoplay="autoplay" loop="loop">
         <source src="music.mp3" type="audio/mpeg">
     </audio>
 <!--     <embed src="music.mp3" autostart=true loop=true palette="blue"|"transparent" height=80 align="center" class="music"> -->
 
     <script src="jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+    window.onload = function(){
+             setInterval("toggleSound()",100);
+        }
+
+    function toggleSound() {
+                var music = document.getElementById("vd");//获取ID  
+                    
+                if (music.paused) { //判读是否播放  
+                    music.paused=false;
+                    music.play(); //没有就播放 
+                }    
+        }
+</script>
+
     
     <script>
 //鼠标视觉中心联动 
