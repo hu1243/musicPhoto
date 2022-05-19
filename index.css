@@ -95,9 +95,8 @@ img:nth-of-type(8){
 }
 
 .music{
-    background-color：yellow;
     position: absolute;
-    bottom:0px;
-    left:10%;
+    bottom:10px;
+    left:50%;
     transform: translateX(-50%);
 }
