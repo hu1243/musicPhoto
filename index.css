@@ -98,6 +98,6 @@ img:nth-of-type(8){
     background-color：yellow;
     position: absolute;
     bottom:0px;
-    left:50%;
+    left:10%;
     transform: translateX(-50%);
 }
