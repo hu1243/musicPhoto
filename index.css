@@ -42,7 +42,7 @@ img{
     width:300px;
 }
 img:hover{
-    transform:scale(1.5);
+    transform:scale(1.2);
 }
 
 img:nth-of-type(1){
